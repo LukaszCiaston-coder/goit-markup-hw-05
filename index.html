@@ -25,7 +25,7 @@
         </div>
         <nav>
             <ul class="site-nav">
-                <li><a class="agency" href="./index.html" target="_blank">Agencja</a></li>
+                <li><a class="agency is-active" href="./index.html" target="_blank">Agencja</a></li>
                 <li><a class="portfolio" href="./portfolio.html" target="_blank">Portfolio</a></li>
                 <li><a class="contact" href="./Kontakt" target="_blank">Kontakt</a>
             </ul>
@@ -54,7 +54,7 @@
 
             <h1 class="main-title">EFEKTYWNE ROZWIĄZANIA<br>DLA NASZEGO BIZNESU</h1>
 
-            <button class="bg" type="button">Zamów usługę</button>
+            <button class="bg" type="button" data-modal-open>Zamów usługę</button>
 
         </div>
         <div class="container">
@@ -417,6 +417,12 @@
             </div>
         </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="close-bg" data-modal-close>X</button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
