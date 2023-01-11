@@ -47,15 +47,15 @@ h2 {
     border-bottom: 1px solid #ececec;
 }
 
-.site-nav{
+.is-active{
 position:relative;
-}
-.site-nav>.is-active::after{
-    position: absolute;
 }
 
 .is-active::after{
     content: " ";
+    top: 3.4em;
+    left: 50%;
+    transform: translate(-50%, -50%);
     position: absolute;
     height: 4px;
     width: 53px;
@@ -362,6 +362,34 @@ position:relative;
     transition: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.box{
+    position: relative;
+    width:370px;
+    height:294px;
+    overflow: hidden;
+
+}
+.overlay{
+    position: absolute;
+    background-color: rgba(33, 150, 243, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 1.55;
+    letter-spacing: 3%;
+    color: white;
+    top:100%;
+    padding: 49px 45px 49px 24px;
+}
+ .box:hover .overlay {
+     top: 0;
+    transition: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ }
+
 
 .border-text {
     border-top: none;
