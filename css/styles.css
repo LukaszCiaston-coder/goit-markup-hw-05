@@ -47,11 +47,11 @@ h2 {
     border-bottom: 1px solid #ececec;
 }
 
-.is-active{
-position:relative;
+.is-active {
+    position: relative;
 }
 
-.is-active::after{
+.is-active::after {
     content: " ";
     top: 3.4em;
     left: 50%;
@@ -61,8 +61,9 @@ position:relative;
     width: 53px;
     border-radius: 2px;
     background: rgba(33, 150, 243, 1);
-        
+
 }
+
 .logo-header {
     font-size: 26px;
     font-weight: 700;
@@ -92,7 +93,7 @@ position:relative;
 .link-white:hover {
     color: #2196F3;
     transition: 250ms;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-white {
@@ -185,7 +186,7 @@ position:relative;
 .number:hover {
     color: #2196F3;
     transition: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .envelope {
@@ -201,7 +202,7 @@ position:relative;
 .icon:hover {
     fill: #2196F3;
     transition: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*------------------Main-------------------*/
@@ -256,10 +257,11 @@ position:relative;
     gap: 30px;
 }
 
-.section-strengths{
+.section-strengths {
     padding-top: 92px;
     padding-bottom: 0px;
 }
+
 .icon-strengths {
     cursor: pointer;
     display: flex;
@@ -270,9 +272,11 @@ position:relative;
     background-color: #F5F4FA;
     margin-bottom: 30px;
 }
+
 .strengths {
     margin: auto;
 }
+
 .text-title {
     text-transform: uppercase;
     font-size: 14px;
@@ -342,7 +346,7 @@ position:relative;
     color: #ffff;
     box-shadow: 0px 2px 2px 0px #0000001f, 0px 1px 2px 0px #00000014, 0px 3px 1px 0px #0000001a;
     transition: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .gallery-figure {
@@ -360,17 +364,18 @@ position:relative;
 .figure:hover {
     box-shadow: 0px 1px 1px, 0px 4px 4px, 1px 4px 6px;
     transition: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.box{
+.box {
     position: relative;
-    width:370px;
-    height:294px;
+    width: 370px;
+    height: 294px;
     overflow: hidden;
 
 }
-.overlay{
+
+.overlay {
     position: absolute;
     background-color: rgba(33, 150, 243, 0.9);
     width: 100%;
@@ -379,16 +384,17 @@ position:relative;
     justify-content: center;
     font-size: 18px;
     line-height: 1.55;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     color: white;
-    top:100%;
+    top: 100%;
     padding: 49px 45px 49px 24px;
 }
- .box:hover .overlay {
-     top: 0;
+
+.box:hover .overlay {
+    top: 0;
     transition: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
- }
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 
 .border-text {
@@ -409,12 +415,13 @@ position:relative;
     color: #212121;
 }
 
-.relative-box{
+.relative-box {
     position: relative;
-    margin:0px;
+    margin: 0px;
 
 }
-.relative-box>.label{
+
+.relative-box>.label {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -422,19 +429,21 @@ position:relative;
     width: 370px;
     height: 70px;
     background-color: rgba(47, 48, 58, 0.8);
-       
+
 }
-.label{
+
+.label {
     font-family: sans-serif;
     text-align: center;
     padding-top: 27px;
     padding-bottom: 27px;
     font-weight: 700;
-    font-size: 14px; 
+    font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+
 .team {
     font-size: 36px;
     font-weight: 700;
@@ -493,7 +502,7 @@ position:relative;
     fill: #FFFFFF;
     background: #2196f3;
     transition: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-customers {
@@ -525,7 +534,7 @@ position:relative;
     fill: #2196F3;
     border-color: #2196f3;
     transition: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*-------------footer--------------------*/
@@ -576,7 +585,7 @@ position:relative;
 .tel:hover {
     color: #2196F3;
     transition: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail {
@@ -602,7 +611,7 @@ position:relative;
 .mail-portfolio:hover {
     color: #2196F3;
     transition: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .join-us {
@@ -632,45 +641,51 @@ position:relative;
     fill: #FFFFFF;
     background: #2196f3;
     transition: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 /*------------------Modal-----------------------*/
-.modal{
-    position:absolute;
-    top:50%;
+.modal {
+    position: absolute;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    width:528px;
-    min-height:581px;
+    transform: translate(-50%, -50%);
+    width: 528px;
+    min-height: 581px;
     border-radius: 4px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     background: rgba(255, 255, 255, 1);
+
 }
-.close-bg{
+
+.close-bg {
     position: absolute;
-    top:8px;
-    right:8px;
+    top: 8px;
+    right: 8px;
     width: 30px;
     height: 30px;
     background-color: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    cursor:pointer;
+    cursor: pointer;
+
 }
-.backdrop{
-    position:fixed;
-    left:0;
-    top:0;
+
+.backdrop {
+    position: fixed;
+    left: 0;
+    top: 0;
     width: 100%;
-    height:100%;
+    height: 100%;
     background: rgba(0, 0, 0, 0.2);
 
 }
-.is-hidden{
-opacity: 0;
-visibility: hidden;
-pointer-events: none;
+
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 }
 
