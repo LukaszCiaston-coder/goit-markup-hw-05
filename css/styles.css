@@ -109,6 +109,11 @@ h2 {
 
 }
 
+.agency.is-active{
+    color:#2196F3
+    
+}
+
 .agency {
     color: #212121;
     text-decoration: none;
@@ -119,6 +124,9 @@ h2 {
     color: #2196F3;
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio.is-active{
+    color: #2196F3;
 }
 
 .portfolio {
@@ -236,12 +244,8 @@ h2 {
     color: #FFFFFF;
     border: none;
     cursor: pointer;
-    margin-top: 30px;
-    margin-right: auto;
-    margin-bottom: 200px;
-    margin-left: auto;
-    height: 50px;
-    width: 200px;
+    padding:10px 35px;
+    margin:30px auto 200px;
     border-radius: 4px;
     font-size: 16px;
     font-weight: 700;
@@ -657,7 +661,7 @@ h2 {
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     background: rgba(255, 255, 255, 1);
-
+    
 }
 
 .close-bg {
