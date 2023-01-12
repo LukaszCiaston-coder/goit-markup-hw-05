@@ -650,7 +650,7 @@ h2 {
 
 /*------------------Modal-----------------------*/
 .modal {
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -662,17 +662,19 @@ h2 {
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     background: rgba(255, 255, 255, 1);
     transform-origin: center center;
-    animation-name: animate125;
-    animation-duration: 10s;
+    animation-name: animate100;
+    animation-duration: 2s;
+  
 }
-    
-    
-@keyframes animate125 {
+  
+@keyframes animate100 {
     0% {
-        transform: scale(0.01);
+        transform: translate(-50%, -50%);
+        transform: scale(0);
     }
 
     100% {
+        transform: translate(-50%, -50%);
         transform: scale(1);
     }
 }
