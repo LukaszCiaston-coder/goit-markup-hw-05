@@ -651,9 +651,10 @@ h2 {
 /*------------------Modal-----------------------*/
 .modal {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    left:30%;
+    top:5%;
     width: 528px;
     min-height: 581px;
     border-radius: 4px;
@@ -663,18 +664,16 @@ h2 {
     background: rgba(255, 255, 255, 1);
     transform-origin: center center;
     animation-name: animate100;
-    animation-duration: 2s;
+    animation-duration: 4s;
 
 }
 
 @keyframes animate100 {
     0% {
-        transform: translate(-50%, -50%);
         transform: scale(0);
     }
 
     100% {
-        transform: translate(-50%, -50%);
         transform: scale(1);
     }
 }
