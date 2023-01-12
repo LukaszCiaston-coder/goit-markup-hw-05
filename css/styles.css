@@ -109,9 +109,8 @@ h2 {
 
 }
 
-.agency.is-active{
-    color:#2196F3
-    
+.agency.is-active {
+    color: #2196F3
 }
 
 .agency {
@@ -125,7 +124,8 @@ h2 {
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio.is-active{
+
+.portfolio.is-active {
     color: #2196F3;
 }
 
@@ -244,8 +244,8 @@ h2 {
     color: #FFFFFF;
     border: none;
     cursor: pointer;
-    padding:10px 35px;
-    margin:30px auto 200px;
+    padding: 10px 35px;
+    margin: 30px auto 200px;
     border-radius: 4px;
     font-size: 16px;
     font-weight: 700;
@@ -664,9 +664,9 @@ h2 {
     transform-origin: center center;
     animation-name: animate100;
     animation-duration: 2s;
-  
+
 }
-  
+
 @keyframes animate100 {
     0% {
         transform: translate(-50%, -50%);
@@ -688,7 +688,7 @@ h2 {
     background-color: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .backdrop {
@@ -706,4 +706,3 @@ h2 {
     visibility: hidden;
     pointer-events: none;
 }
-
