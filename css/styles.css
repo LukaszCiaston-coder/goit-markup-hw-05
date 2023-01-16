@@ -665,7 +665,7 @@ h2 {
  transition-duration: 3s;
  transform: translateX(-50%) translateY(-50%) scale(1);
  visibility: visible;
- 
+
 }
 
 .close-bg {
@@ -682,15 +682,18 @@ h2 {
 
 .backdrop {
     position: fixed;
-    left: 0;
-    top: 0;
+    left: 50%;
+    top: 50%;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.2);
-
+    transition-property: visibility, transform;
+    transition-duration: 3s;
+    transform: translateX(-50%) translateY(-50%) scale(1);
+    visibility: visible;
 }
 
-.is-hidden {
+.is-hidden  {
     pointer-events: none;
     visibility: hidden;
     transform: translateX(-50%) translateY(-50%) scale(0);
